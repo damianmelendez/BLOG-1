@@ -1,7 +1,32 @@
-body
-{
-    color: crimson;
-    text-align: center;
-    font-family: "Arial";
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #ff69b4; /* Código de color rosado */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #111; /* Fondo negro más oscuro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.1); /* Sombra con tono rosado */
+    padding: 20px;
+}
+
+#post {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Texto rosado */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #ccc; /* Texto gris claro */
+    font-size: 1.2em;
 }
