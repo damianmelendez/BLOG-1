@@ -16,6 +16,13 @@ body {
     padding: 20px;
 }
 
+#cabecera {
+    text-align: center;
+    text-decoration: underline; /* Subrayado para la cabecera */
+    color: red; /* Color rojo */
+    margin-bottom: 20px; /* Espacio adicional debajo de la cabecera */
+}
+
 #post {
     text-align: center;
 }
@@ -23,10 +30,4 @@ body {
 h1 {
     color: #ff69b4; /* Texto rosado */
     font-size: 2em;
-    margin-bottom: 10px;
-}
-
-p {
-    color: #ccc; /* Texto gris claro */
-    font-size: 1.2em;
-}
+   
